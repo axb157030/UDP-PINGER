@@ -1,5 +1,5 @@
 # UDP-PINGER
-It essentially establishes a connection in UDP between one server and one client. The traffic intensity in the network is establsihed from executing
+It establishes a connection in UDP between one server and one client. The traffic intensity in the network is establsihed from executing
 the UDPTopo python file. This connection is established in mininet which is installed and runs in a virtual machine by Oracle VM virtual box.
 The client tries to send 50 messages to the server and if the server does not respond back within or at 1 second, a packet loss is detected.
 The UDP heartbeat function makes the client skip an arbitary amount of messages to send depending on the user. The UDP heartbeat server
